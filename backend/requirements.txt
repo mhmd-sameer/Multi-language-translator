@@ -1,6 +1,6 @@
 Flask==3.1.0
 Flask-Cors==5.0.0
-torch==2.5.0
+torch==2.5.0+cpu
 transformers==4.47.1
 sentencepiece==0.2.0
 numpy==2.2.1
