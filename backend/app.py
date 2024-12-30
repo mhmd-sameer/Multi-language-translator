@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 from transformers import MBartForConditionalGeneration, MBart50Tokenizer
 import os
+import torch
+torch.set_num_threads(1)
 
 app = Flask(__name__)
 
